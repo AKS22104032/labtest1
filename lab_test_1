@@ -1,0 +1,61 @@
+
+Q1-import numpy as np
+import matplotlib as mlb
+sales=np.array(["week1","week2","week3","week4"])
+week1=np.array([120,500,230,75,45])
+week2=np.array([130,520,210,80,40])
+week3=np.array([125,530,2220,70,50])
+week4=np.array([140,340,200,90,60])
+def calculateunits(arr1,arr2,arr3,arr4):
+ 
+    return arr1+arr2+arr3+arr4
+calculateunits(week1,week2,week3,week4)
+
+
+array([ 515, 1890, 2860,  315,  195])
+
+Q2-avg=np.array([[np.average(week1),np.average(week2),np.average(week3),np.average(week4)]])
+print(avg)
+
+[[194. 196. 599. 166.]]
+
+Q3-sales=np.array([week1,week2,week3,week4])
+print(sales)
+def avgsales(sale):
+
+[[ 120  500  230   75   45]
+ [ 130  520  210   80   40]
+ [ 125  530 2220   70   50]
+ [ 140  340  200   90   60]]
+
+
+Q4-arrayf=np.array([515,1890,2860,315,915])
+def productrate(rate):
+    smax=np.max(rate)
+    smin=np.min(rate)
+    return smax,smin
+productrate(arrayf)
+        
+
+(2860, 315)
+
+x=[" electronics","groceries"," clothing","furniture","stationery"]
+y=[(515, 1890, 2860,  315,  195)]
+
+for i in range(0,4):
+    x=
+
+
+
+
+
+
+
+
+
+
+      
+
+     
+
+
